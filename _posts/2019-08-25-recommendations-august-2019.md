@@ -17,7 +17,7 @@ Haruki Murakami's 2009 international best seller probably needs no introduction.
 
 ## What to listen to: [The butterfly effect](https://www.stitcher.com/podcast/audible/the-butterfly-effect-with-jon-ronson) podcast by Jon Ronson
 
-While looking for stuff to listen to on the plane I happened upon this podcost documenting the rise of Pornhub and the various direct and indirect effects it's had since absorbing all the competition and reshaping the industry. Jon Ronson has a unique take on investigative journalism and I've always enjoyed his work. If you enjoy this podcast I'd also recommend his books: [The Psychopath Test](https://www.goodreads.com/book/show/12391521-the-psychopath-test), [So You've Been Publicly Shamed ](https://www.goodreads.com/book/show/22571552-so-you-ve-been-publicly-shamed).
+While looking for stuff to listen to on the plane I happened upon this podcast documenting the rise of Pornhub and the various direct and indirect effects it's had since absorbing all the competition and reshaping the industry. Jon Ronson has a unique take on investigative journalism and I've always enjoyed his work. If you enjoy this podcast I'd also recommend his books: [The Psychopath Test](https://www.goodreads.com/book/show/12391521-the-psychopath-test), [So You've Been Publicly Shamed ](https://www.goodreads.com/book/show/22571552-so-you-ve-been-publicly-shamed).
 
 ## What to watch: [The Favorite](https://www.imdb.com/title/tt5083738/) by Yorgos Lanthimos
 
