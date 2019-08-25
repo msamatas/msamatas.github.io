@@ -3,6 +3,7 @@ layout: page
 title: Introduction
 description: Introduction
 feature_image: images/about.jpg
+permalink: /about.html
 ---
 
 Greetings, 
