@@ -7,7 +7,7 @@ feature_image: images/post_images/carmack.jpg
 tags: [programming]
 ---
 
-John Carmack did Joe Rogan's podcast this week. To accompany the link to the video, I take the opportunity to highlight the most famous magic number ever created.
+John Carmack did Joe Rogan's podcast this week. To accompany the link to the interview, I take the opportunity to highlight the most famous magic number ever created.
 
 <!--more-->
 
