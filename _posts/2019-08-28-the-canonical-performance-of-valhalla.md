@@ -4,7 +4,7 @@ title: "The canonical performance of Valhalla"
 description: "Listening to Demons & Wizards performing *Valhalla* live at Chania Rock Festival 2019 was a unique experience. Or was it?. Let's find out"
 date: 2019-08-28
 feature_image: images/post_images/valhalla.jpg
-tags: [music]
+tags: [Music]
 ---
 
 Listening to *Demons & Wizards* performing *Valhalla* live at Chania Rock Festival 2019 was a unique experience. Or was it? Let's find out!

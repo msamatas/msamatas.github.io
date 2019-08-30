@@ -4,7 +4,7 @@ title: "Recommendations: August 2019"
 description: "A surealist take on the human condition, one man's quest to transform the porn industry and lots of dice, in August's edition of *Recommendations*."
 date: 2019-08-25
 feature_image: images/post_images/1Q84.jpg
-tags: [recommendations]
+tags: [Recommendations]
 ---
 
 A surealist take on the human condition, one man's quest to transform the porn industry and lots of dice, in August's edition of *Recommendations*.

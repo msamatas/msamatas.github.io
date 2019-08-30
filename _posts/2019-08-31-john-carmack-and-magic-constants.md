@@ -4,7 +4,7 @@ title: "John Carmack and magic numbers"
 description: "John Carmack did Joe Rogan's podcast this week. To accompany the link to the video, I take the opportunity to highlight the most famous magic number ever created."
 date: 2019-08-31
 feature_image: images/post_images/carmack.jpg
-tags: [programming]
+tags: [Programming]
 ---
 
 John Carmack did Joe Rogan's podcast this week. To accompany the link to the interview, I take the opportunity to highlight the most famous magic number ever created.

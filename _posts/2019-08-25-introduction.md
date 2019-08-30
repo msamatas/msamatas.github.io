@@ -4,7 +4,7 @@ title: "Welcome"
 description: "I used to have a blog and then disaster struck. Now it's back."
 date: 2019-08-25
 feature_image: images/post_images/intro.jpg
-tags: [meta]
+tags: [Meta]
 ---
 
 I used to have a blog and then disaster struck. Now it's back.
