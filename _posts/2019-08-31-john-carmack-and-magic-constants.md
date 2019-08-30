@@ -11,7 +11,7 @@ John Carmack did Joe Rogan's podcast this week. To accompany the link to the int
 
 <!--more-->
 
-John Carmack is the quintessential engineer and a personal hero of mine. His interview with Joe Rogan is a fascinating narrative through his life, one that I highly recommend you to listen to.
+John Carmack is the quintessential engineer and a personal hero of mine. His interview with Joe Rogan is a fascinating narrative through his life, one that I highly recommend you listen to.
 
 <iframe src="https://www.youtube.com/embed/udlMSe5-zP8" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
@@ -40,7 +40,9 @@ float Q_rsqrt( float number )
 
 _   
 
-This function produces a (very good) approximation for the inverse of the square root of a float32 number. At the time, it managed to be way faster than the standard library equivalent, as it avoided expensive CPU operations like division and multiplication. How does it work though? And what's with that 0x5f3759df number? This is the question isn't it? The [fast inverse square root](https://en.wikipedia.org/wiki/Fast_inverse_square_root) function has fascinated two generations of programmers by this point. Understanding how it works has proven a very memorable right of passage for a lot of people. 
+This function produces a (very good) approximation for the inverse of the square root of a float32 number. At the time, it managed to be way faster than the standard library equivalent, as it avoided expensive CPU operations like division and multiplication. How does it work though? And what's with that 0x5f3759df number? 
+
+This is the question isn't it? The [fast inverse square root](https://en.wikipedia.org/wiki/Fast_inverse_square_root) function has fascinated two generations of programmers by this point. Understanding how it works has proven a very memorable right of passage for a lot of people. 
 
 {% include image_caption.html imageurl="/images/post_images/inverse.jpg" title="0x5f3759df" caption="There are T-Shirts even!" %}
 
