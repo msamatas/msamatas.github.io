@@ -12,7 +12,7 @@ Since August 2020, I've been living in [Dublin](https://en.wikipedia.org/wiki/Du
 
 I travel abroad a few times a year and pretend to arrive at profound insights about the human condition. Most days you can find me reading contemporary fiction and writing lame poetry.
 
-This blog is an avenue to vent my excitement in life. Posts include but are not limited to:
+This blog is an avenue to vent my excitement for life. Posts include but are not limited to:
 
 * Programming deep dives: Algorithms, bugs, catastrophic failures and high quality papers
 * Media recommendations: Books, movies, video games, podcasts, music
@@ -21,7 +21,7 @@ This blog is an avenue to vent my excitement in life. Posts include but are not 
 &nbsp;
 &nbsp;
 
-> Nothing is more permanent than the temporary.
+> Nothing is more permanent than the temporary.\
 > -*Ancient Greek Proverb*
 
 
