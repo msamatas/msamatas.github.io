@@ -9,12 +9,13 @@ source "https://rubygems.org"
 # Happy Jekylling!
 # gem "jekyll", "~> 4.2.2"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "beautiful-jekyll-theme", "5.0.0"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 gem "github-pages", group: :jekyll_plugins
 gem 'jekyll-admin', group: :jekyll_plugins
+gem "beautiful-jekyll-theme", "~> 5.0.0"
 # If you have any plugins, put them here!
+
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
 end
@@ -27,7 +28,7 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 # Performance-booster for watching directories on Windows
-gem 'wdm', '>= 0.1.1' if Gem.win_platform?
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
 # do not have a Java counterpart.
