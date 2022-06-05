@@ -207,8 +207,9 @@ jekyll_admin:
       sidebar_label: Posts
  
 # Build settings
-theme: beautiful-jekyll-theme
+remote_theme: daattali/beautiful-jekyll@5.0.0
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-remote-theme
