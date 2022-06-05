@@ -1,78 +1,214 @@
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-# Site language
-lang: en-US
-
-# Site title
 title: "Temporary Notebook"
+author: Michael Samatas
 
-# A description of your site for meta tag, search engine results.
-description: "Nothing is more permanent than the temporary"
+navbar-links:
+  About: "aboutme"
+  Archive: "tags"
 
-# The subpath of your site, e.g. /blog, for generating urls.
-baseurl: ""
+avatar: "/assets/img/profile_pic.jpg"
+round-avatar: true
 
-# The base hostname & protocol of your site for where absolute urls are needed.
-url: "https://samatas.net"
+social-network-links:
+  rss: true
+  facebook: mixalis.samatas
+  github: msamatas
+  linkedin: samatas
 
-# Favicon
-favicon: /images/favicon.png
+rss-description: Temporary Notebook
 
-# Site navigation - each item must have a title and a url.
-navigation:
-- text: Home
-  url: /
-- text: About
-  url: /about/index.html
-- text: Archives
-  url: /tags/
+share-links-active:
+  twitter: true
+  facebook: true
+  linkedin: true
+  vk: false
 
-# The shortname for your Disqus site to enable comments.
-# disqus: samatasnet
+#Displays link in the footer
+#url-pretty: "samatas.net"
 
-# Colors
-palette: darkEmerald
-palettes:
-  blue:
-    sass:
-      accent: '#2d72d9'
-  green:
-    sass:
-      accent: '#00debc'
-  orange:
-    sass:
-      accent: '#ff5000'
-  darkEmerald:
-    sass:
-      accent: '#003d00'
+excerpt_length: 50
+feed_show_excerpt: true
+feed_show_tags: true
+post_search: true
 
-# Site footer
-footer:
-  content: "&copy; 2019 Michael Samatas all rights reserved."
-  links:
-    - text: Based on the Scriptor-Jekyll-Theme
-      url: 'https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme'
-      new_window: true
-  has_social: true
+keywords: "blog,samatas,dev,software"
 
-# http://jekyllrb.com/docs/pagination/
-paginate: 3
-paginate_path: '/page:num/'
-plugins:
-  - jekyll-paginate
+navbar-col: "#EAEAEA"
+navbar-text-col: "#404040"
+navbar-border-col: "#DDDDDD"
+page-col: "#FFFFFF"
+text-col: "#404040"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#EAEAEA"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+footer-hover-col: "#0085A1"
 
-# Permalinks
-permalink: /:title
+date_format: "%Y-%m-%d"
 
+#Alternative to navbar/footer/page-background
+#navbar-img: ""
+#footer-img: ""
+#page-img: ""
+
+mobile-theme-col: "#0085A1"
+
+#site-css:
+#  - ""
+
+#site-js:
+#  - "/assets/js/custom-script.js"
+
+# --- Web Analytics Section --- #
+
+# Fill in your Google Analytics gtag.js ID to track your website using gtag
+#gtag: ""
+
+# Fill in your Google Analytics ID to track your website using Google Analytics
+#google_analytics: ""
+
+# Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
+#cloudflare_analytics: ""
+
+# Google Tag Manager ID
+#gtm: ""
+
+# Matomo (aka Piwik) Web statistics
+# Uncomment the following section to enable Matomo. The opt-out parameter controls
+# whether or not you want to allow users to opt out of tracking.
+#matomo:
+#  site_id: "9"
+#  uri: "demo.wiki.pro"
+#  opt-out: true
+
+# --- Comments --- #
+
+# To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
+#disqus: ""
+
+# To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
+#fb_comment_id: ""
+
+# To use CommentBox, sign up for a Project ID on https://commentbox.io
+#commentbox: "" # Project ID, e.g. "5694267682979840-proj"
+
+# To use Utterances comments: (0) uncomment the following section, (1) fill in
+# "repository" (make sure the repository is public), (2) Enable Issues in your repository,
+# (3) Install the Utterances app in your repository https://github.com/apps/utterances
+# See more details about the parameters below at https://utteranc.es/
+#utterances:
+#  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
+#  issue-term: title   # Mapping between blog posts and GitHub issues
+#  theme: github-light # Utterances theme
+#  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
+
+# To use Staticman comments, uncomment the following section. You may leave the reCaptcha
+# section commented if you aren't using reCaptcha for spam protection. 
+# Using Staticman requires advanced knowledge, please consult 
+# https://github.com/eduardoboucas/staticman/ and https://staticman.net/ for further 
+# instructions. For any support with staticman please direct questions to staticman and 
+# not to BeautifulJekyll.
+#staticman:
+#  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
+#  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
+#  endpoint   : # URL of your deployment, with a trailing slash eg. "https://<your-api>/v3/entry/github/"
+#  reCaptcha:   # (optional, set these parameters in `staticman.yml` as well) 
+#    siteKey  : # You need to apply for a site key on Google
+#    secret   : # Encrypt your password by going to https://<your-own-api>/v3/encrypt/<your-site-secret>
+
+# To use giscus comments:
+# (0) Uncomment the following giscus section, (1) Enable Discussions in your GitHub repository, 
+# (2) Install the giscus app in your repository (details at https://giscus.app),
+# (3) Fill in *all* the parameters below 
+# See more details about giscus and each of the following parameters at https://giscus.app
+#giscus:
+#  hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
+#  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
+#  repository-id: # ID of your repository, retrieve this info from https://giscus.app
+#  category: Announcements # Category name of your GitHub Discussion posts
+#  category-id: # ID of your category, retrieve this info from https://giscus.app
+#  mapping: pathname
+#  reactions-enabled: 1
+#  emit-metadata: 0
+#  theme: light
+
+#timezone: "Europe/Dublin"
 markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
 
-# Sass
-sass:
-  indentWidth: 4
-  style: nested
-  precision: 10
+kramdown:
+  input: GFM
+  
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      subtitle: ""
+      cover-img: ""
+      tags: []
+      readtime: true
+      comments: false
+      social-share: true
+  -
+    scope:
+      path: "" # any file that's not a post will be a "page" layout by default
+    values:
+      layout: "page"
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - screenshot.png
+  - CHANGELOG.md
+
+description: "Nothing is more permanent than the temporary"
+baseurl: ""
+url: "https://samatas.net"
+favicon: "/assets/img/favicon.png"
+
+jekyll_admin:
+  hidden_links:
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+  homepage: "pages"
+  collections:
+    posts:
+      output: true
+      sidebar_label: Posts
+ 
+# Build settings
+theme: beautiful-jekyll-theme
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
