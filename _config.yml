@@ -191,7 +191,7 @@ exclude:
 
 description: "Nothing is more permanent than the temporary"
 baseurl: ""
-url: "https://samatas.net"
+#url: "https://samatas.net"
 favicon: "/assets/img/favicon.png"
 
 jekyll_admin:
