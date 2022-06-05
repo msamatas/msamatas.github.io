@@ -9,7 +9,7 @@ tags:
 readtime: true
 ---
 
-Listening to` **Demons & Wizards**` performing **Valhalla** live at Chania Rock Festival 2019 was a unique experience. Or was it? Let's find out!
+Listening to **Demons & Wizards** performing **Valhalla** live at Chania Rock Festival 2019 was a unique experience. Or was it? Let's find out!
 
 
 **Demons & Wizards** is a band that was formed as a side project 20 years ago by members of *Blind Guardian* and *Iced Earth*. In live shows they like to play their own songs as well as hits from their parent bands. While I am a pretty big fan of *Iced Earth*, I never really got into *Blind Guardian*, so the live performance of *Valhalla* at Chania Rock Festival 2019 was actually the first time I heard the song. 
