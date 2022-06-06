@@ -5,7 +5,7 @@ tags:
 - Programming
 - Java
 cover-img: assets/img/post/java_collectors_1.png
-date: '2022-06-06 20:30:00'
+date: '2022-06-06 18:30:00'
 ---
 
 I was once in a team that really believed in functional java. Much of my passion on the subject today stems from that time.  
