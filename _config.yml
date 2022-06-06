@@ -168,9 +168,9 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      subtitle: ""
-      cover-img: ""
-      tags: []
+      subtitle: "Subtitle"
+      cover-img: "assets/img/post/placeholder.png"
+      tags: ["Placeholder"]
       readtime: true
       comments: false
       social-share: true
